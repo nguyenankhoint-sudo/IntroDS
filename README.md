@@ -27,6 +27,7 @@ Open your terminal (Command Prompt / PowerShell / Terminal) and clone the reposi
 ```bash
 git clone https://github.com/truongtuan1312/introds-project
 cd introds-project
+```
 
 **Step 2.2: Install Required Libraries**
 It is highly recommended to use a virtual environment. To install all required dependencies, run:
