@@ -72,7 +72,7 @@ Move the files: Place both retail1.csv and retail2.csv directly inside the data/
 
 Your directory structure MUST look exactly like this before proceeding:
 
-text
+```text
 introds-project/
 ├── data/
 │   ├── raw/
@@ -83,6 +83,7 @@ introds-project/
 │   └── D3_analysis.ipynb  <-- YOU WILL RUN THIS FILE
 ├── requirements.txt
 └── README.md
+```
 
 ## 4. How to Execute the Notebook
 **Step 4.1: Open the Notebook**
@@ -125,7 +126,7 @@ category_return_rate_ci.csv: Contains the 95% Wilson Confidence Intervals for li
 
 At the very bottom of the notebook, there is an Appendix cell that explicitly displays the 15 removed outlier rows for transparency.
 
-7. Troubleshooting (Common Errors)
+## 7. Troubleshooting (Common Errors)
 Error: FileNotFoundError: [Errno 2] No such file or directory: '../data/raw/retail1.csv'
 
 Fix: You did not place retail1.csv and retail2.csv in the correct folder, or you named them incorrectly. Re-check Section 3.3.
